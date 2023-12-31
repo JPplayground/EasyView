@@ -1,0 +1,16 @@
+{
+  "name": "EasyView",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo 'testing'"
+  },
+  "author": "Josh Patterson",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^28.1.0",
+    "typescript": "^5.3.3"
+  }
+}
