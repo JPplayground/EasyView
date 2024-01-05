@@ -1,6 +1,7 @@
 {
   "name": "EasyView",
   "version": "1.0.0",
+  "type": "module",
   "description": "test",
   "main": "main.js",
   "scripts": {
@@ -10,7 +11,11 @@
   "author": "Josh Patterson",
   "license": "ISC",
   "devDependencies": {
+    "@types/exif": "^0.6.5",
     "electron": "^28.1.0",
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "exif": "^0.6.0"
   }
 }
