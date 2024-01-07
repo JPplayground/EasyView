@@ -1,6 +1,8 @@
-const { ipcMain } = require('electron')
-const { app, BrowserWindow } = require('electron/main')
-const path = require('node:path')
+import { ipcMain, app, BrowserWindow } from 'electron';
+import { fileURLToPath } from 'node:url';
+import path from 'node:path';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const createWindow = () => {
     const win = new BrowserWindow({
